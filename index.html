@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel=" stylesheet" href="./style.css">
+<head>
+<body>
+<div class="total">
+    <div class="encabezado">
+        <img src="./assets/img/Logo.png" class="logotipo" alt="Logotipo Pokemon" width="200px"><br>
+    </div>
+    <div class="interfaz">
+        <input type="text" placeholder="Pokemon" id="pokeName" name="pokeName"><br>
+        <button onclick="fetchPokemon()">Cambiar pokemon</button>
+    </div>
+    <div class="pokedex">
+        <img src="./assets/img/pokeball.png" class="pokebola" alt="Pokebola" id="pokeImg" width="110px"><br>
+        <img src="./assets/img/pokedex.png" class="pokedex" alt="Pokedex" width="700px">
+    </div>
+    <div class="name">
+        <h4>Name: </h4>
+        <p id="name"></p>
+    </div>
+    <div class="type">
+        <h4>Type:</h4>
+        <p id="type"></p>
+    </div>
+    <div >
+        <h4 class="moves">Moves:</h4>
+        <p id="moves"></p>
+    </div>
+    <div class="blanco"></div>
+    <div class="habilidades">
+        <div class="chart-wrap horizontal">
+            <div class="grid">
+                <div class="bar" style="--bar-value: 100%"  id="ps"></div>
+                <div class="bar" style="--bar-value:100%;"  id="atk"></div>
+                <div class="bar" style="--bar-value:100%;"  id="def"></div>
+                <div class="bar" style="--bar-value:100%;"  id="spatk"></div>
+                <div class="bar" style="--bar-value:100%;"  id="spdef"></div>
+                <div class="bar" style="--bar-value:100%;"  id="speed"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<footer>
+    <script src="./main.js"></script>
+</footer>
+</head>
